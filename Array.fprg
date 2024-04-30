@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="tcogg"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-04-28 12:55:48 AM"/>
+        <attribute name="created" value="dGNvZ2c7TEFQVE9QLTBKSTlSTkkxOzIwMjQtMDQtMjY7MDk6MDE6NDMgUE07Mjg1Ng=="/>
+        <attribute name="edited" value="dGNvZ2c7TEFQVE9QLTBKSTlSTkkxOzIwMjQtMDQtMjg7MTI6NTU6NDggQU07MzsyOTYx"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Colors" type="String" array="True" size="3"/>
+            <assign variable="Colors[0]" expression="&quot;Pink&quot;"/>
+            <assign variable="Colors[1]" expression="&quot;Lavender&quot;"/>
+            <assign variable="Colors[2]" expression="&quot;Mint&quot;"/>
+            <output expression="&quot;Please select a number from 1 to 3.&quot;" newline="True"/>
+            <declare name="selectedNumber" type="Integer" array="False" size=""/>
+            <input variable="selectedNumber"/>
+            <if expression="selectedNumber = 1">
+                <then>
+                    <output expression="&quot;You selected Pink.&quot;" newline="True"/>
+                </then>
+                <else/>
+            </if>
+            <if expression="selectedNumber = 2">
+                <then>
+                    <output expression="&quot;You selected Lavender.&quot;" newline="True"/>
+                </then>
+                <else/>
+            </if>
+            <if expression="selectedNumber = 3">
+                <then>
+                    <output expression="&quot;You selected Mint.&quot;" newline="True"/>
+                </then>
+                <else/>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
